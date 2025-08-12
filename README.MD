@@ -75,7 +75,7 @@ npm run dev
 | ------ | --------- | -------------------------- |
 | `GET`  | `/`       | Health check endpoint      |
 | `GET`  | `/vocab`  | Get the vocabulary file    |
-| `GET`  | `/encode` | Encode text into token IDs |
+| `POST` | `/encode` | Encode text into token IDs |
 | `POST` | `/decode` | Decode token IDs into text |
 
 ---
@@ -89,7 +89,7 @@ You can test the API endpoints using [Postman](https://www.postman.com/).
 - Method: `GET`
 - Endpoint: `/`
 
-Resonse:
+Response:
 
 ```json
 {
