@@ -1,5 +1,8 @@
 # Custom Tokenizer API (Node + Express)
 
+[![Watch the video](https://img.youtube.com/vi/TcA4Qz7E3Cg/maxresdefault.jpg)](https://youtu.be/TcA4Qz7E3Cg)  
+🎥 **Watch on YouTube:** [Custom Tokenizer API Tutorial](https://youtu.be/TcA4Qz7E3Cg)
+
 A simple **character-level tokenizer** with special token support, built using **Node.js** and **Express**.  
 Supports:
 
