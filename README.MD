@@ -10,6 +10,16 @@ Supports:
 
 ---
 
+## Concepts & Understanding
+
+Below diagram explains the basic concepts of tokenization, input tokens, input sequence, and special tokens.
+
+<p align="center">
+  <img src="./custom-tokenizer-basic-concepts.png" alt="Custom Tokenizer Basic Concepts" width="700"/>
+</p>
+
+---
+
 ## Features
 
 - **Char-level tokenization**
