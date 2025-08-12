@@ -1,5 +1,9 @@
 import { readFileSync } from "fs";
-import { join } from "path";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Step 1: load vocab file as JSON
 const vocabPath = join(__dirname, "..", "data", "vocab.json");
